@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Restoran, bar y cafe con opciones de comidas y bebidas para todas las edades y gustos">
+    <meta name="keywords" content="COMIDA, BEBIDAS, CAFE, BAR, VINO, ENCUENTRO, LUGAR, AGRADABLE, BUENOS PRECIOS, VARIEDAD">
+
+    <title>RESTOBAR LOS HERMANOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../fontawesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../src/el-logo.png" alt="logo">
+        <h1>
+            <p>HAGA SU RESERVA - SOLICITE INFORMACION</p>
+        </h1>
+
+        <nav class="navbar fixed-top navbar-light" style="background-color: #d4dda9">
+            <a class="navbar-brand" href="../index.html">INICIO</a>
+            <a class="navbar-brand" href="elrestoran.html">EL RESTORAN</a>
+            <a class="navbar-brand" href="cafeteria.html">CAFETERIA</a>
+            <a class="navbar-brand" href="elbar.html">EL BAR</a>
+            <a class="navbar-brand" href="lacava.html">LA CAVA</a>
+            <a class="navbar-brand" href="contacto.html">CONTACTO</a>
+
+
+        </nav>
+    </header>
+
+
+
+    <div>
+
+        <form name="my-form-name" action="gracias.html" method="post" enctype="multipart/form-data">
+            <label for="mtxtinput">Nombre completo</label>
+            <input type="text" name="my_text_input_name" id="mtxtinput" value="" placeholder="Lucas Perez">
+
+
+            <label for="email">Email</label>
+            <input type="email" name="my_email_input_name" id="email" value="" required placeholder="Lucas@gmail.com">
+
+            <h3>Estado civil</h3>
+
+            <li><input type="radio" name="estado" id="casado" value="h">
+                <label for="casado">Casado</label>
+            </li>
+            <li> <input type="radio" name="estado" id="viudo" value="m">
+                <label for="Viudo">viudo</label>
+            </li>
+            <li> <input type="radio" name="estado" id="soltero" value="u">
+                <label for="soltero">soltero</label>
+            </li>
+            <li> <input type="radio" name="estado" id="otro" value="o">
+                <label for="otro">otro</label>
+            </li>
+
+
+            <h3>Desea recibir el Newsletter</h3>
+            <label for="my_select">Mi respuesta </label>
+            <select name="my_select_name" id="my_select">
+    <option selected="selected" value="0">Seleccione</option>
+    <option value="1">Si deseo resibir el Newsletter</option>
+    <option value="2">Solo quiero realizar una reserva</option>
+    <option value="3">No deseo recibir propagandas</option>
+    <option value="4">Otra </option>
+   
+  </select>
+
+            <h3>SU OPINION NOS INTERESA</h3>
+            <label for="my_textarea">Mensaje:
+
+</label>
+
+            <textarea name="my_textarea_name" id="my_textarea" rows="10" cols="60" placeholder="Complete por favor">
+  
+</textarea>
+
+
+            <input type="submit" name="enviar" value="enviar mensaje">
+            <input type="reset" name="Limpiar" value="borrar formulario">
+        </form>
+
+    </div>
+</body>
+
+
+
+<footer>
+    <pre>       RESERVAS:   TEL. 0114555555
+        
+UBICACION: CALLE - SAN MARTIN 3489 ESQ. ASCUNAGA - GODOY CRUZ
+                    
+    &copy; copiright 2020 &reg;
+</pre>
+
+</footer>
+
+
+</html>
