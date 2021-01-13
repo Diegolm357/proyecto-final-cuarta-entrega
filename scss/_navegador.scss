@@ -1,11 +1,14 @@
-nav {
-    div {
-        display: block;
-        width: auto;
-        background: green;
-        color: black;
-        text-shadow: 1px 1px #fff;
-    }
+header>nav {
+    display: block;
+    font-size: 65%;
+    padding: 20px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 10%;
+    left: 10%;
 }
 
 .portal {
@@ -14,8 +17,9 @@ nav {
     .social {
         width: 1px;
         position: fixed;
-        margin-top: 65%;
+        margin-top: 5%;
         right: 5%;
+        z-index: 7;
     }
 }
 

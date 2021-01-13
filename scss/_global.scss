@@ -4,9 +4,11 @@ html {
     height: 100%;
 }
 
-body {
+
+/*body {
     @include body-font;
 }
+*/
 
 // Custom Button Size
 .btn-xl {
@@ -43,14 +45,14 @@ body {
     height: 50px;
     text-align: center;
     color: white;
-    background: fade-out($gray-800, .5);
+    background: fade-out($gray, .5);
     line-height: 45px;
     &:focus,
     &:hover {
         color: white;
     }
     &:hover {
-        background: $gray-800;
+        background: $gray;
     }
     i {
         font-weight: 800;
