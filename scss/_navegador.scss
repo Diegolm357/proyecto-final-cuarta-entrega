@@ -1,6 +1,6 @@
 header>nav {
     font-size: 1rem;
-    padding-left: 20px;
+    padding-left: 20%;
 }
 
 .fixed-top {
@@ -27,4 +27,13 @@ i {
         text-decoration: underline;
         transform: translate(5px);
     }
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10%;
+    flex-wrap: wrap;
+    max-width: auto;
+    max-height: auto;
 }
